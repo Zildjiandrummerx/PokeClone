@@ -10,3 +10,8 @@ SPEED = 'Speed'
 
 PHYSICAL = 'physical'
 SPECIAL = 'special'
+
+# Commands
+
+DO_ATTACK = 'attack'
+DO_ATTACK_SELECTION = 'selected_attack'
