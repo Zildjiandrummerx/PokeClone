@@ -42,29 +42,11 @@ class Battle:
         print(self.pokemon1.name + ' has ' + str(self.pokemon1.current_hp) + ' hp left')
         print(self.pokemon2.name + ' has ' + str(self.pokemon2.current_hp) + ' hp left')
 
+    def compute_damage(attack, pokemon1, pokemon2):
+        pass
 
-class Pokemon:
-
-    def __init__(self, name, level, type1, type2):
-        self.name = name
-        self.level = level
-        self.type1 = type1
-        self.type2 = type2
-        self.attacks = []
-        self.stats = {}
-        self.current_status = 0
-        self.current_hp = 0
-
-
-class Attack:
-    
-    def __init__(self, name, attack_type, category, pp, power, accuracy):
-        self.name = name
-        self.attack_type = attack_type
-        self.category = category
-        self.pp = pp
-        self.power = power
-        self.accuracy = accuracy
+    def compute_damage_modifier(attacks, pokemon1, pokemon2):
+        pass
 
 
 class Turn:
